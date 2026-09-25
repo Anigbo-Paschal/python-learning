@@ -34,11 +34,18 @@ age = 20
 
 # TODO: Create a variable called 'my_name' and store your name in it
 
+my_name = "Paschal"
+
 
 # TODO: Create a variable called 'my_age' and store your age in it
 
+my_age = 18
+
 
 # TODO: Print both variables using print()
+
+print(f"my name is {my_name}")
+print(f"I am {my_age} years old")
 
 
 
@@ -52,8 +59,12 @@ Example: 5, -10, 100
 
 # TODO: Create a variable called 'apples' and assign it a whole number
 
+apples = 37
+
 
 # TODO: Print the type of the 'apples' variable using type()
+
+print(type(apples))
 
 
 
@@ -67,8 +78,11 @@ Example: 3.14, -0.5, 99.99
 
 # TODO: Create a variable called 'price' and assign it a decimal number
 
+price = 35.99
 
 # TODO: Print the type of the 'price' variable using type()
+
+print(type(price))
 
 
 
@@ -82,10 +96,11 @@ Example: "Hello", 'Python'
 
 # TODO: Create a variable called 'greeting' and assign it a text message
 
+greeting = "Hello there"
 
 # TODO: Print the type of the 'greeting' variable using type()
 
-
+print(type(greetings))
 
 """
 -----------------------------------------------------
@@ -97,10 +112,11 @@ They are mostly used for conditions/comparisons.
 
 # TODO: Create a variable called 'is_student' and set it to True or False
 
+is_student = false
 
 # TODO: Print the type of the 'is_student' variable using type()
 
-
+print(type(is_student))
 
 """
 -----------------------------------------------------
@@ -120,7 +136,18 @@ print(type(x))   # Output: <class 'int'>
 """
 
 # TODO: Create ANY 4 variables (one of each type: int, float, str, bool)
+
+date = 16
+section = 3.5
+male = true
+month = "april"
+
 # and print their types one by one
+
+print(type(date))
+print(type(section))
+print(type(male))
+print(type(month))
 
 
 
@@ -160,13 +187,15 @@ print(num_int + 10)      # Output: 15 (this works now!)
 # TODO: Create a variable 'age_str' with a number stored as a STRING
 #       Example: age_str = "18"
 
+age_str = "45"
 
 # TODO: Convert 'age_str' into an integer and store it in 'age_int'
 
+age_int = int(age_str)
 
 # TODO: Print the type of 'age_int' to confirm the conversion worked
 
-
+print(type(age_int))
 
 """
 -----------------------------------------------------
@@ -188,13 +217,18 @@ user_name = input("Enter your name: ")
 # TODO: Ask the user to enter their favourite number using input()
 #       Store it in a variable called 'fav_number'
 
+fav_number = input("enter your favourite number: ")
 
 # TODO: Print the type of 'fav_number' (it should be a string!)
 
+print(type(fav_number))
 
 # TODO: Now convert 'fav_number' into an integer using int()
+
+fav_number = int(fav_number)
 #       and print its type again (it should now be an integer)
 
+print(type(fav_number))
 
 
 """
@@ -207,14 +241,18 @@ Let's combine everything you've learned so far.
 # TODO: Create three variables: 'length', 'width' (both integers or floats)
 #       representing the length and width of a rectangle
 
+length, width = 6,1.54
 
 # TODO: Calculate the area (length * width) and store it in a variable
 #       called 'area'
 
+area = length*width
 
 # TODO: Print a message using the variables, for example:
 #       "The area of the rectangle is 50"
-#       (Use f-strings! Example: print(f"The area is {area}"))
+#       (Use f-strings! Example: print(f"The area is {area}")
+
+print(f"The area of the rectangle is {area}")
 
 
 
@@ -228,16 +266,17 @@ need to run code for this section.
 """
 
 # Q1. What is the difference between int and float?
-# Your answer:
+# Your answer: int is a whole number while float has decimals
 
 # Q2. Can a variable's data type change during a program? Why?
-# Your answer:
+# Your answer: Yes. because Python variables are dynamically typed.
+#meaning that you can reassign a variable to a different type at anytime 
 
 # Q3. What data type does input() always return by default?
-# Your answer:
+# Your answer: it always returns as strings
 
 # Q4. What will type(True) return in Python?
-# Your answer:
+# Your answer: bool
 
 
 """
